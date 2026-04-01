@@ -13,9 +13,7 @@ const customer = {
         return this.discount;
     },
     setDiscount(value) {
-        if (value >= customer.discount) {
-            this.discount = value;
-        }
+        this.discount = value;
     },
     getOrders() {
         return this.orders;
